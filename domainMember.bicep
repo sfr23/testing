@@ -121,7 +121,7 @@ resource windowsVMExtensions 'Microsoft.Compute/virtualMachines/extensions@2020-
     autoUpgradeMinorVersion: true
     settings: {
       fileUris: [
-        'https://raw.githubusercontent.com/sfr23/testing/main/vmscripts/install-dc.ps1'
+        'https://raw.githubusercontent.com/sfr23/testing/main/vmscripts/install-member.ps1'
       ]
     }
     protectedSettings: {
